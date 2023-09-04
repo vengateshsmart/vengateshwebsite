@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PMIST</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="header-container">
+        <div class="logo">
+          <img
+            class="logo img"
+            src="./PMIST-reverse-logo.png"
+            alt="logo"
+            srcset=""
+          />
+        </div>
+        <div class="navbar">
+          <ul class="navlinks">
+            <li class="navitems"><a href="./index.html">home</a></li>
+            <li class="navitems"><a href="./about.html">about</a></li>
+            <li class="navitems"><a href="./courses.html">courses</a></li>
+            <li class="navitems"><a href="./contact.html">contact</a></li>
+          </ul>
+        </div>
+        <div class="burger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <h2>registration</h2>
+        <p>Admission 2025-28</p>
+      </div>
+    </div>
+
+    <!-- form -->
+
+  <div class="form-wrapper">
+    <div class="form-container content">
+
+        <form action="#" class="regform" name="admission">
+          <div>    <h3 class="reg-heading">register here</h3></div>
+          <span class="dynamic"></span> 
+          <div class="name">
+            <label for="name">name of the applicant</label>
+            <input class="fname" placeholder="enter ur name" type="text" name="name" required />
+          </div>
+  
+          <div class="dob">
+            <label for="dob">date of birth</label>
+            <input type="date" name="dob" required />
+          </div>
+  
+          <div class="cmode">
+            <label class="cmode-heading" >course mode</label>
+            <input type="radio" id="lateral" name="mode" required value="lateral">
+            <label class="cval" for="lateral">lateral</label>
+            <input type="radio" id="reg" name="mode" required value="regular"/>
+            <label class="cval" for="reg">regular</label>
+          </div>
+          
+          <span class="ctype-msg"></span>
+  
+          <div class="ctype">
+            <label class="ctype-heading" >course type</label>
+            <input type="radio" id="ug" name="type" value="ug" required />
+            <label class="cval" for="ug">UG</label>
+            <input type="radio" id="pg" name="type" required value="pg" />
+            <label class="cval" for="pg">PG</label>
+          </div>
+          <div class="phno">
+            <label for="phno">mobile no</label>
+            <input type="number" placeholder="enter ur mobile no" id="phno" name="dob" required />
+          </div>
+  <div class="state">
+      
+      <label for="state">state</label>
+      <input type="text" placeholder="enter ur state" name="state" required />
+  </div>
+  
+         <div class="city">
+          <label for="city">city</label>
+          <input type="text" placeholder="enter ur city" name="city" required />
+  
+         </div>
+          <button class="submit btn">submit</button>
+
+          <div class="sucess-msg">
+            <span class="s-msg"></span>
+          </div>
+        </form>
+      </div>
+  </div>
+
+    <footer>
+      <div class="f-wrapper pt content">
+        <div class="footer-top">
+          <div class="f-logo">
+            <img
+              src="./footer/Periyar_Maniammai_Institute_of_Science_&_Technology_logo.png"
+              alt=""
+            />
+          </div>
+          <div class="f-content">
+            <h3 class="f-title">
+              periyar maniammai institute of science and technology
+            </h3>
+            <div class="f-contacts">
+              <p>
+                Periyar Nagar, Vallam, Thanjavur - 613403, Tamil Nadu, India
+              </p>
+              <p>+91 4362 264600</p>
+              <p>registrar@pmu.edu</p>
+            </div>
+
+            <div class="social-links">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+
+          <div class="f-links">
+            <ul class="f-list">
+              <li class="f-items"><a href="./index.html">home</a></li>
+              <li class="f-items"><a href="./about.html">about</a></li>
+              <li class="f-items"><a href="./courses.html">courses</a></li>
+              <li class="f-items"><a href="./contact.html">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="f-bottom-wrapper">
+        <div class="footer-bottom">
+          <small>copyright &copy; PMIST 2023.all rights reserved</small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
